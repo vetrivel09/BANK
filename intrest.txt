@@ -60,7 +60,10 @@ public class intrest1 extends bank1 {
 
 	public static void main(String[] args) {
 		bank1 p=new bank1(5000);
-		AXIS1 A=new AXIS1(5000);A.dis();
+		AXIS1 A=new AXIS1(5000);
+        A.dis();
+        HDFC1 H=new HDFC1(6000);
+        H.dis();
 	
 
 	}
