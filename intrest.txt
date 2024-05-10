@@ -1,1 +1,69 @@
+package over;
+
+class bank1{
+	double a,b,c;
+	bank1(double ba)
+	 {
+	c=ba;
+	}
+	
+}
+class HDFC1 extends bank1{
+	HDFC1(double ba) {
+		super(ba);
+		
+	}
+
+	void dis(){
+		b=super.c*0.12;
+		c=b+super.c;
+		System.out.println("your balance is="+c);
+		System.out.println("your intrest is="+b);
+		System.out.println("current balance="+a);
+	}
+}
+class AXIS1 extends bank1{
+	AXIS1(double ba) {
+		super(ba);
+	}
+
+	void dis(){
+		
+		b=super.c*0.18;
+		a=b+super.c;
+		System.out.println("your balance is="+c);
+		System.out.println("your intrest is="+b);
+		System.out.println("current balance="+a);
+	}
+}
+class SBI1 extends bank1{
+	
+	SBI1(double ba) {
+		super(ba);
+	}
+
+	void dis(){
+		b=super.c*0.18;
+		a=b+super.c;
+		System.out.println("your balance is="+c);
+		System.out.println("your intrest is="+b);
+		System.out.println("current balance="+a);
+	}
+}
+public class intrest1 extends bank1 {
+	
+
+	intrest1(double ba) {
+		super(ba);
+		
+	}
+
+	public static void main(String[] args) {
+		bank1 p=new bank1(5000);
+		AXIS1 A=new AXIS1(5000);A.dis();
+	
+
+	}
+
+}
 
